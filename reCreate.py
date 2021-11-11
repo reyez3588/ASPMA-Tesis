@@ -217,3 +217,5 @@ yFinal = SMM.sineModelSynth(freqMatrixFinal, magnitudDBFinal, np.array([]), 600,
 
 #np.savetxt('test.txt', freqMatrixFinal)
 waves.write('reCreate.wav', 44100, yFinal)
+
+#final del archivo
